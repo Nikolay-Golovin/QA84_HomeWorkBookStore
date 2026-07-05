@@ -119,7 +119,7 @@ private static void saveBooksToFile(TreeSet<Library> books, String folderPath, S
 
                 Library book=new Library(title,author,description,pages,price);
                 books.add(book);
-                System.out.println("Another one ? y/n");
+                System.out.print("Another one ? y/n  ");
                 String answer=br.readLine();
                 if (answer.equals("n")){
                     br.close();
