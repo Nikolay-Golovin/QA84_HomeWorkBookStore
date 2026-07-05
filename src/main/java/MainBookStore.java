@@ -102,7 +102,7 @@ private static void saveBooksToFile(TreeSet<Library> books, String folderPath, S
 
         while(true){
            try{
-                System.out.print("Enter Book Name: ");
+                System.out.print("Enter Book Title: ");
                 String title= br.readLine();
 
                 System.out.print("Enter Book Author: ");
