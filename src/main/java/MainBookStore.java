@@ -102,19 +102,19 @@ private static void saveBooksToFile(TreeSet<Library> books, String folderPath, S
 
         while(true){
            try{
-                System.out.println("Enter Book Name:");
+                System.out.print("Enter Book Name: ");
                 String title= br.readLine();
 
-                System.out.println("Enter Book Author:");
+                System.out.print("Enter Book Author: ");
                 String author= br.readLine();
 
-                System.out.println("Enter Book Description:");
+                System.out.print("Enter Book Description: ");
                 String description= br.readLine();
 
-                System.out.println("Enter Book Pages:");
+                System.out.print("Enter Book Pages: ");
                 int pages= Integer.parseInt(br.readLine());
 
-                System.out.println("Enter Book Price:");
+                System.out.print("Enter Book Price: ");
                 double price= Double.parseDouble(br.readLine());
 
                 Library book=new Library(title,author,description,pages,price);
